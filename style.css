@@ -1,0 +1,407 @@
+body {
+  padding: 0;
+  margin: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.div1 {
+  position: relative;
+  height: 100vw;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  display: flex;
+  overflow: hidden;
+  z-index: 1;
+}
+.div2 {
+  position: relative;
+  display: flex;
+  z-index: 500;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  padding-left: 400px;
+}
+.div1 .span {
+  height: 300px;
+  width: 900px;
+  height: 150px;
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+.div1 span p {
+  margin: 0;
+
+  transform: translateY(100%);
+  font-weight: 1000;
+  font-family: system-ui, sans-serif;
+  transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  font-style: bold;
+  letter-spacing: -10px;
+  font-size: 170px;
+}
+h2 {
+  margin: 0;
+
+  font-weight: 1000;
+  font-family: system-ui, sans-serif;
+  transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  font-style: bold;
+  letter-spacing: -10px;
+  line-height: 1;
+  font-size: 170px;
+}
+.div1.animate span p {
+  transform: translateY(0%);
+}
+iframe {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 498;
+}
+.content {
+  height: 70vw;
+  z-index: 500;
+  width: 97vw;
+  margin-left: -10px;
+
+  overflow: hidden;
+
+  display: flex;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.div3 {
+  height: 100vh;
+
+  width: 100vw;
+  margin-left: -50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+  position: relative;
+
+  padding: 5px;
+  margin-top: 50px;
+  transition:
+    opacity 1.2s ease-out,
+    font-size 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+    letter-spacing 1.2s ease-out;
+}
+.div4 {
+  height: 100%;
+
+  width: 100vw;
+  margin-left: -50px;
+  overflow: hidden;
+  position: relative;
+  top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  top: 100px;
+  padding: 5px;
+  margin-top: 50px;
+  padding: 30px;
+}
+.div5 {
+  height: 100vh;
+  padding: 30px;
+  width: 100%;
+  position: relative;
+  top: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 5px;
+  overflow: hidden;
+}
+.div51 {
+  height: 95%;
+  width: 48%;
+  border: 1px solid #000;
+  transform: translateX(-100%) translateY(30%) rotate(-30deg);
+  transition-duration: 1s;
+  background-image: url("https://cdn.prod.website-files.com/67aca0c732855fc2a1f2c4fc/68bb0be00336912e360b324f_main%20case%20cover%20matera%20(1).webp");
+  background-size: cover;
+  background-position: center;
+}
+.div52 {
+  height: 95%;
+  border: 1px solid #000;
+  width: 48%;
+  transform: translateX(100%) translateY(30%) rotate(30deg);
+  transition-duration: 1s;
+  background-image: url("https://cdn.prod.website-files.com/67aca0c732855fc2a1f2c4fc/68bae5b9f22246585fe911d0_chance-cover-desktop-p-2000.webp");
+  background-size: cover;
+  background-position: center;
+}
+.div6 {
+  height: 100vh;
+  padding: 30px;
+  width: 100%;
+  margin-left: -50px;
+  position: relative;
+  top: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 5px;
+  overflow: hidden;
+}
+.div61 {
+  height: 95%;
+  width: 48%;
+  border: 1px solid #000;
+  transform: translateX(-100%) translateY(30%) rotate(-30deg);
+  transition-duration: 1s;
+  background-image: url("https://cdn.prod.website-files.com/67aca0c732855fc2a1f2c4fc/68beb68ead192a24f9ad4372_silvr%20case%20cover%20(1)-p-2000.webp");
+  background-size: cover;
+  background-position: center;
+}
+.div6.animate .div61 {
+  transform: translateX(0%);
+}
+.div6.animate .div62 {
+  transform: translateX(0%);
+}
+.div5.animate .div51 {
+  transform: translateX(0%);
+}
+.div5.animate .div52 {
+  transform: translateX(0%);
+}
+
+.div62 {
+  height: 95%;
+  border: 1px solid #000;
+  width: 48%;
+  transform: translateX(100%) translateY(30%) rotate(30deg);
+  transition-duration: 1s;
+  background-image: url("https://cdn.prod.website-files.com/67aca0c732855fc2a1f2c4fc/68bb1c497ad001257f2e727f_intramuros-cover-case-home%20(1)-p-2000.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.div3 h2 {
+  font-size: 60px;
+  opacity: 0;
+  line-height: 1.1;
+  font-weight: 1000;
+  letter-spacing: -4px;
+  position: relative;
+  top: 100px;
+
+  transition: all 3s ease-out;
+}
+.div3 .span1 {
+  opacity: 0;
+  letter-spacing: -4px;
+  position: relative;
+  top: 100px;
+
+  transition: all 3s ease-out;
+}
+.div3.animate1 h2 {
+  opacity: 1 !important;
+  font-size: 80px;
+  line-height: 1;
+  top: 0px;
+  letter-spacing: -8px;
+}
+.div3.animate1 .span1 {
+  opacity: 1 !important;
+
+  top: 0px;
+  letter-spacing: -1px;
+}
+.div4 .span2 {
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.div4 .span3 {
+  font-size: 180px;
+  font-weight: 1000;
+  letter-spacing: -20px;
+  position: relative;
+  top: 270px;
+
+  transform: translateY(100%);
+  transition: transform 5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.div8 .con6 .el1 {
+  font-size: 150px;
+  font-weight: 1000;
+  position: relative;
+  width:90%;
+  overflow: hidden;
+  line-height: 1.1;
+ 
+  
+}
+
+.div8 .con6  {
+  font-size: 150px;
+  font-weight: 1000;
+  overflow: hidden;
+  position: relative;
+  width: 55%;
+  line-height: 1.1;
+  letter-spacing: 2px;
+
+}
+.div8 .con6 .el2 .e1 {
+
+  transform: translateY(100%);
+  transition: transform 3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.div8 .con7 .a1 .s1 {
+
+  transform: translateY(100%);
+  transition: transform 3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.div8 .con7 .a1 .s2 {
+position: relative;
+  transform: translateY(100%);
+  transition: transform 3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.div8 .con6 .el2 .e2 {
+  transform: translateY(100%);
+  transition: transform 3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.div8 .con6 .el1 .e3 {
+  
+
+ display: block;
+    position: relative;
+  transform: translateY(100%);
+  transition: transform 3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.div7 .child1 .t1,
+.div7 .child2 .t2,
+.div7 .child3 .t3,
+.div7 .child4 .t4,
+.div7 .child5 .t5,
+.div7 .child6 .t6,
+.div7 .child7 .t7 {
+  position: relative;
+  top: 270px;
+
+  transform: translateY(100%);
+
+  transition: transform 3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.div4.animate1 .span3 {
+  transform: translateY(0%);
+  top: -20px;
+}
+.div8.animate1 .con6 .el1 .e3 {
+  transform: translateY(0%);
+  top: -20px;
+}
+.div8.animate1 .con7 .a1 .s1 {
+  transform: translateY(0%);
+
+}
+.div8.animate1 .con7 .a1 .s2 {
+  transform: translateY(0%);
+ 
+}
+.div8.animate1 .con6 .el2 .e1 {
+  transform: translateY(0%);
+  top: -20px;
+}
+.div8.animate1 .con6 .el2 .e2 {
+  transform: translateY(0%);
+  top: -20px;
+}
+.div7.animate1 .child1 .t1,
+.div7.animate1 .child2 .t2,
+.div7.animate1 .child3 .t3,
+.div7.animate1 .child4 .t4,
+.div7.animate1 .child5 .t5,
+.div7.animate1 .child6 .t6,
+.div7.animate1 .child7 .t7 {
+  transform: translateY(0%);
+  top: 0px;
+}
+.div7.animate1 .child1 {
+  transform: translateY(0%);
+  top: -20px;
+}
+.cursor {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 20px;
+  border-radius: 50%;
+  z-index: 498;
+  overflow: hidden;
+  transition: all 0.1s;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cursor iframe {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  transform: scale(1.3);
+  border: 0;
+  pointer-events: none;
+}
+.child1 {
+  overflow: hidden;
+}
+
+.t1 {
+  position: relative;
+  top: 0;
+
+  transform: translateY(100%);
+
+  transition: transform 5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.t1.animate3 {
+  transform: translateY(0%);
+  top: -20px;
+}

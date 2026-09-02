@@ -1,0 +1,22 @@
+.navbar {
+            background-color: transparent;
+            color: #fff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: black;
+        }
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .navbar li {
+           cursor: pointer;
+        }
