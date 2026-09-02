@@ -216,7 +216,7 @@ part4.addEventListener('mouseleave', () => {
     spart7.style.width = "0";
 });
 part4.addEventListener('click', () => {
-    window.location.href = "approach.html";
+    window.location.href = "index.html";
 });
 part4.append(spart7,spart8);
 
@@ -302,7 +302,7 @@ part6.addEventListener('mouseleave', () => {
     spart11.style.width = "0";
 });
 part6.addEventListener('click', () => {
-    window.location.href = "studio.html";
+    window.location.href = "index.html";
 });
 part6.append(spart11,spart12);
 
