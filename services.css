@@ -1,6 +1,4 @@
-   /* ==========================================
-       GLOBAL RESET & BASE STYLES
-    ========================================== */
+   
     * {
       margin: 0;
       padding: 0;
@@ -15,9 +13,7 @@
       overflow-x: hidden;
     }
 
-    /* ==========================================
-       SECTION 1: HERO
-    ========================================== */
+    
     .hero {
       position: relative;
       width: 100%;
@@ -85,9 +81,7 @@
       }
     }
 
-    /* ==========================================
-       SECTION 2: NAMMA SECTION
-    ========================================== */
+    
     .sec-namma {
       background: #ffffff;
       padding: 80px 50px 120px 50px;
@@ -190,7 +184,7 @@
       transform: translateY(-15px) scale(1.1) rotate(-3deg);
     }
 
-    /* Embedded Craft & Media Part inside Section 2 */
+    
     .craft-embedded {
       padding-top: 40px;
       font-family: 'Impact', 'Arial Black', sans-serif;
@@ -277,9 +271,7 @@
       .row-2 video { margin-right: 0.4em; }
     }
 
-    /* ==========================================
-       SECTION 4: OUR SERVICES (FIXED STICKY SIDEBAR)
-    ========================================== */
+    
     .services-wrapper {
       position: relative;
       display: flex;
@@ -432,9 +424,7 @@
       .services-wrapper .sticky-sidebar { position: relative; top: 0; }
     }
 
-    /* ==========================================
-       SECTION 5: HAPPY CLIENT TESTIMONIAL
-    ========================================== */
+    
     .happy-client-wrapper {
       position: relative;
       width: 100%;
