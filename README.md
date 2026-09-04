@@ -23,12 +23,6 @@
 
 <br><br>
 
-<img src="https://img.shields.io/github/stars/oxanuragofficial/projectnamma?style=for-the-badge&logo=github&label=STARS&color=F59E0B" />
-&nbsp;
-<img src="https://img.shields.io/github/forks/oxanuragofficial/projectnamma?style=for-the-badge&logo=github&label=FORKS&color=8B5CF6" />
-&nbsp;
-<img src="https://img.shields.io/github/license/oxanuragofficial/projectnamma?style=for-the-badge&label=LICENSE&color=22C55E" />
-
 </div>
 
 ---
