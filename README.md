@@ -4,13 +4,6 @@
 
 ### A Modern Creative & Interactive Web Experience
 
-<p>
-  <strong>HTML5</strong> •
-  <strong>CSS3</strong> •
-  <strong>JavaScript</strong> •
-  <strong>Vimeo</strong>
-</p>
-
 <br>
 
 <a href="https://github.com/oxanuragofficial/projectnamma">
