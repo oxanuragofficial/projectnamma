@@ -22,6 +22,19 @@
 
 ## ✨ About The Project
 
+---
+
+## 🎨 Design & Experience
+
+Project Namma explores how modern web technologies can create an immersive and visually engaging digital experience.
+
+- **Visual Storytelling:** A bold visual identity built around typography, video and contrast.
+- **Motion & Interaction:** Animations and interactive elements that make the experience feel dynamic.
+- **Layout & Composition:** Carefully structured sections with sticky scrolling and responsive layouts.
+- **Vanilla Web Development:** Built with HTML, CSS and JavaScript without a frontend framework.
+
+The project demonstrates my approach to combining visual design, frontend development and interactive storytelling into a cohesive web experience.
+
 **Project Namma** is a modern creative website focused on immersive visual presentation, bold typography, smooth animations and interactive sections.
 
 The project combines a minimal black-and-white visual style with vibrant interactive elements to create a premium agency-style web experience.
