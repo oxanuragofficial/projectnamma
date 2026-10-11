@@ -41,7 +41,6 @@ It was built from scratch using **HTML, CSS and JavaScript**, with video content
 | 📱 **Responsive** | Designed for desktop, tablet and mobile |
 | 📌 **Sticky Sections** | Dynamic scrolling and sticky content |
 | 💬 **Interactive Elements** | Engaging UI components and interactions |
-| ⚡ **Lightweight** | Built using vanilla web technologies |
 
 ---
 
